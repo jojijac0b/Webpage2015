@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title style= "color:orange">Joji's Website</title>
+</head>
+<body style="background-color: yellow">
+<h1>Joji's Website</h1>
+<a  href=>Home</a>
+<a  href=>About</a>
+<a  href=>Media</a>
+<a  href=>News</a>
+<a  href=>Games</a>
+</body>
+</html>
