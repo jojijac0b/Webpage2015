@@ -1,46 +1,103 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-		<title>Joji 1.0</title>
-		<meta name="description" content="">
-		<meta name="author" content="n02452642">
-
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	</head>
-
-	<body>
-		<div>
-			<header>
-				<h1>Joji 1.0</h1>
-			</header>
-			<nav>
-				<p>
-					<a href="/">Home</a>
-				</p>
-				<p>
-					<a href="/contact">Contact</a>
-				</p>
-			</nav>
-
-			<div>
-
-			</div>
-
-			<footer>
-				<p>
-					&copy; Copyright  by n02452642
-				</p>
-			</footer>
-		</div>
-	</body>
+  
+  </head>
+  <body>
+    
+    <div class = "container">
+      <p><a href="https://webpage2015-jojijac0b.c9.io/new_file.html?">Home</a>
+          <a href="">Log</a>
+      </p>
+      
+    </div>
+    
+    
+    <div class="container">
+        <div class="page-header">
+          <h1>Joji's Fitness Site <small>Anything is possible!</small></h1>
+        </div>
+        <form class="form-horizontal">
+          <div class "alert alert-success" style = "hidden"> Enter what you ate </div>
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Food</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="txtEmail" placeholder="Food">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Calories</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="txtPassword" placeholder="Calories">
+            </div>
+          </div>
+          
+          
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+          </div>
+        </form>
+        
+    </div>
+   
+   <div class = container> 
+    <form class="form-horizontal">
+        <div class "alert alert-success" style = "hidden">Enter how much you ran</div>
+          <div class='alert' style="display: none" id="myAlert">
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+            <h3></h3>
+          </div> 
+          <div class="form-group">
+            <label for="txtLocation" class="col-sm-2 control-label">Where</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="txtLocation" placeholder="Location">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="txtLength">How far did you run</label>
+            <div class="col-sm-10">
+                  <input type="number" class="form-control" id="txtLength" placeholder="Length (meters)">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="txtDate">When did you run</label>
+            <div class="col-sm-10">
+                  <input type="date" class="form-control" id="txtDate" placeholder="Date">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-success" id="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 
+  </body>
 </html>
